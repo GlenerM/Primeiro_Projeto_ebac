@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+header h1, header .links a , section .container .conteudo {
+    font-family: "Oswald";
+    font-weight: normal;
+    
+}
+
+header{
+    background-color: blueviolet;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.titulo {
+    color: aliceblue;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+header .links{
+    margin-right: 100px;
+}
+
+header .links a {
+    margin-right: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* fim da seçao do header */
+
+.container{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.conteudo img{
+    display: inline;
+    margin-top: 60px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+section .container .conteudo h1{
+    margin-bottom: 50px;
+    color: rgb(38, 19, 90);
+}
+
+section .container .conteudo h3{
+    margin-bottom: 5px;
+    color: rgb(38, 19, 90);
+}
+
+section .container .conteudo p{
+    margin-top: 25px;
+    color: rgb(38, 19, 90);
+    font-family: "Noto Serif"
+}
+
+/* fim do conteudo */
+
+#contato .container {
+    display: block;   
+    
+}
+
+#contato h1{
+    margin-left: 60px;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(30, 7, 94);
+}
+
+
+.conteudos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+form input, textarea,button{
+
+    padding: 7px;
+    display: block;
+    width: 300px;
+    margin-top: 4px;
+}
+
+.redes img{ 
+    margin-right: 9px;
+    margin-top: 150px;
+    height: 20px;
+}
+
+.formulario h2{
+    color: rgb(38, 19, 90);
+    font-size: 24px;
+}
+
+form button{
+    background-color: rgb(38, 19, 90);
+    color: aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(71, 46, 139);
+    cursor: pointer;
+}
+
+#contato h2{
+    color: rgb(60, 23, 161);
+    font-family: "Noto Serif"
+}
+
+
+#contato p{
+    margin-top: 150px ;
+    font-size: 18px;
+    color: rgb(38, 19, 90);
+    
+}
+
+footer{
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgb(38, 19, 90);
+    height: 90px;
+    color: aliceblue;
+    text-align: center;
+}
